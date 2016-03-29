@@ -1,0 +1,133 @@
+<html>
+<head>
+	<title>CodingDojo Battle Arena</title>
+	<link rel="stylesheet" type="text/css" href="BattleArenacss.CSS">
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(function(){
+				$(".beach").mouseover(function(){
+					$("#container").parent().css('background-image', "url('beach.jpg')");
+				});
+				$(function(){
+					$(".planet").mouseover(function(){
+						$("#container").parent().css('background-image', "url('calvinandhobbes.jpg')");
+					});
+					$(function(){
+						$(".dojo").mouseover(function(){
+							$("#container").parent().css('background-image', "url(dojo.jpg)");
+						});
+					$(function(){
+						$(".forest").mouseover(function(){
+							$("#container").parent().css('background-image', "url(forest.jpg)");
+						});
+						$(function(){
+							$(".matrix").mouseover(function(){
+								$("#container").parent().css('background-image', "url(matrix.jpg)");
+							});
+						$(function(){
+							$(".snow").mouseover(function(){
+								$("#container").parent().css('background-image', "url(snow.jpg)");
+										});
+									});
+								$(function(){
+									$(".beach").click(function(){
+										$("#container").css('background-image', "url(beach.jpg)");
+									});
+								});
+								$(function(){
+									$(".planet").click(function(){
+										$("#container").css('background-image', "url(calvinandhobbes.jpg)");
+									});
+								});
+								$(function(){
+									$(".dojo").click(function(){
+										$("#container").css('background-image', "url(dojo.jpg)");
+									});
+								});
+								$(function(){
+									$(".forest").click(function(){
+										$("#container").css('background-image', "url(forest.jpg)");
+									});
+								});
+								$(function(){
+									$(".matrix").click(function(){
+										$("#container").css('background-image', "url(matrix.jpg)");
+									});
+								});
+								$(function(){
+									$(".snow").click(function(){
+										$("#container").css('background-image', "url(snow.jpg)");
+										});
+								});
+								});
+								$(function() {
+   								$("#maintitle").mouseout(function() {
+       							$("#container").parent().css('background-image', "url('allblack.jpg')");
+   								});
+								});
+								$(".hide").click(function() {
+									$(".hide").hide();
+								});
+									});
+									$("#maintitle").click(function() {
+										$("#maintitle").hide();
+									});
+								});
+ 								});
+
+								});
+							});
+
+</script>
+</head>
+<body>
+	<div id="container">
+		<div id="maintitle">
+			<h1>Select Arena</h1>
+	<button class="beach hide">Beach</button>
+	<button class="planet hide">Planet</button>
+	<button class="dojo hide">Dojo</button>
+	<button class="forest hide">Forest</button>
+	<button class="matrix hide">Matrix</button>
+	<button class="snow hide">Snow</button>
+</div>
+<div id= "left">
+			<img class="ninjasl1" src="yellow.png" alt="yellow" width="113.125px" height="171.872px"/>
+			<img class="ninjasl2" src="white.png" alt="white" width="135.656px" height="148.984px"/>
+			<img class="ninjasl3" src="black.png" alt="black" width="113.125px" height="171.672px"/>
+			<img class="ninjasl4" src="green.png" alt="green" width="113.125px" height="171.672px"/>
+			<img class="ninjasl5" src="red.png" alt="red" width="113.125px" height="171.672px"/>
+			<img class="ninjasl6" src="leo.jpg" alt="leo" width="153.328" height="91.984"/>
+	</div>
+
+		<div id="selectbox">
+			<h1>Select Players</h1>
+			<select class="box1">
+				<option>Yellow Ninja</option>
+				<option>White Ninja</option>
+				<option>Black Ninja</option>
+				<option>Green Ninja</option>
+				<option>Red Ninja</option>
+				<option>Leo Ninja</option>
+			</select>
+			<select class="box2">
+					<option>Yellow Ninja</option>
+					<option>White Ninja</option>
+					<option>Black Ninja</option>
+					<option>Green Ninja</option>
+					<option>Red Ninja</option>
+					<option>Leo Ninja</option>
+				</select>
+		</div>
+
+	<div id= "right">
+						<img class="ninjasr1" src="yellow.png" alt="yellow" width="113.125px" height="171.872px"/>
+						<img class="ninjasr2" src="white.png" alt="white" width="135.656px" height="148.984px"/>
+						<img class="ninjasr3" src="black.png" alt="black" width="113.125px" height="171.672px"/>
+						<img class="ninjasr4" src="green.png" alt="green" width="113.125px" height="171.672px"/>
+						<img class="ninjasr5" src="red.png" alt="red" width="113.125px" height="171.672px"/>
+						<img class="ninjasr6" src="leo.jpg" alt="leo" width="153.328" height="91.984"/>
+	</div>
+</body>
+</html>

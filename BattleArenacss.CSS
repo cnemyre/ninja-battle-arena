@@ -1,0 +1,65 @@
+*{
+margin: 0px auto;
+padding: 0px;
+
+}
+
+#maintitle {
+  color: #DA8800;
+  text-align: center;
+  opacity: 10px;
+
+}
+
+#maintitle{
+  border: 50px solid #3B3B3B;
+  margin: 50px;
+  display: inline-block;
+  background-color: #3B3B3B;
+  width: 250px;
+  border-radius: 10px;
+
+
+}
+#maintitle h1{
+  padding-bottom: 10px;
+}
+
+#container{
+  padding-left: 400px;
+  padding-top: 150px;
+  height: 600px;
+  width: 900px;
+
+}
+#maintitle button{
+  color: black;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  border-color: #FCFCFC;
+  margin: 5px;
+  font-family: "Tahoma";
+  font-size: 12px;
+  background-color: #FCFCFC;
+}
+#maintitle select{
+ margin-left: 10px;
+ margin-right: 10px;
+
+}
+#selectbox {
+  color: #DA8800;
+  text-align: center;
+  opacity: 10px;
+  border: 50px solid #3B3B3B;
+  margin: 50px;
+  display: inline-block;
+  background-color: #3B3B3B;
+  width: 250px;
+  border-radius: 10px;
+
+#left{
+  
+}
